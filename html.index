@@ -1,0 +1,52 @@
+<form action= "/signup" method ="POST">
+  <p>
+    <label>Title </label>
+    <label>
+      <input type= "radio" name="title" value="mr">
+      Mr
+    </laebl>
+    <label>
+      <input type= "radio" name="title" value="mrs">
+      Mrs
+    </label>
+    <label>
+      <input type="radio" name="title" value="miss">
+      Miss
+    </label> 
+  <p>
+  <p>
+    <label>Email </label>
+    <input type="email" value="email" >
+  </p>
+  <p>
+    <label>Phone Number </label>
+    <input type= "tel" value="phone">
+  </p>
+  <p>
+    <label> confirm your password </label>
+    <input type="passwod" value="password_confirm"> 
+  </p>
+  <p>
+    <label> country </label>
+    <select>
+      <option> Canada </option>
+      <option> France </option>
+      <option> Germany </option>
+      <option> italy </option>
+      <option> japan </option>
+      <option> russia </option>  
+    </select>
+  </p>
+  <p>
+    <label>
+      <input type="checkbox" value="terms">
+      I agree to the terms < a href="/terms">
+      terms and condition </a>
+    </label>
+    </p>
+    <p>
+    <button>
+       signup
+    </button>
+   </p>
+</form>
